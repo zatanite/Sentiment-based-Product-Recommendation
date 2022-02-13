@@ -18,7 +18,7 @@ nltk.download('omw-1.4')
 
 class SentimentRecommenderModel:
 
-    ROOT_PATH = "pickle/"
+    ROOT_PATH = "pickle_files/"
     MODEL_NAME = "sentiment-classification-random-forest-model.pkl"
     VECTORIZER = "tfidf-vectorizer.pkl"
     RECOMMENDER = "user_final_rating.pkl"
