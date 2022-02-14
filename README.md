@@ -15,7 +15,7 @@ Data Cleaning, Visualization and Text Preprocessing (NLP) are applied on the dat
 Dataset suffers from Class Imbalance Issue and SMOTE Oversampling technique is used before applying the model
 Machine Learning Classification Models (Logistic Regression, Naive Baiyes, Tree Algorithms : (Decision Tree, Random Forrest, xgboost) are applied on the vectorized data and the target column (user_sentiment). the objective of this ML model is to classify the sentiment to positive(1) or negative(0). Best Model is selected based on the various ML classification metrics (Accuracy, Precision, Recall, F1 Score, AUC). Logistic regression is selected to be a second best model based on the evaluation metrics.
 Colloborative Filtering Recommender system is created based on User-user and item-item approaches.RMSE evaluation metric is used for the evaluation.
-\SentimentBasedProductRecommendation.ipynb Jupiter notebook contains the code for Sentiment Classification and Recommender Systems
+\Final_project.ipynb Jupiter notebook contains the code for Sentiment Classification and Recommender Systems
 Top 20 products are filtered using the better recommender system, and for each of the products predicted the user_sentiment for all the reviews and filtered out the Top 5 products that have higher Postive User Sentiment (model.py)
 Machine Learning models are saved in the pickle files(under the pickle); Flask API (app.py) is used to interface and test the Machine Learning models. Bootstrap and Flask jinja templates (templates\index.html) are used for setting up the User interface. No additional Custom Styles used.
 End to End application is deployed in Heroku
